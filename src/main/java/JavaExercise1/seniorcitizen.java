@@ -12,6 +12,12 @@ public class seniorcitizen {
 
 		        System.out.print("Enter your age: ");
 		        int age = scanner.nextInt();
+		        
+		        
+		     // Handle negative age by converting to positive
+		        if (age < 0) {
+		            age = -age;
+		        }
 
 		        if (age >= 60) {
 		            System.out.println("You are a senior citizen.");

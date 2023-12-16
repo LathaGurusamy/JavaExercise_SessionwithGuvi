@@ -1,29 +1,36 @@
 package JavaExercise1;
 import java.util.Scanner;
 
-
 public class countnumberofdigit {
-	//10.Write a program to Count Number of Digits in an Integer.
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+
 		
-		
+
+		    // Write a program to Count Number of Digits in an Integer.
 
 		        Scanner scanner = new Scanner(System.in);
 
 		        System.out.print("Enter an integer: ");
-		        
-		        int number = scanner.nextInt();
 
-		        scanner.close();
+		        // Validate input to ensure it's a valid integer
+		        while (!scanner.hasNextLong()) {
+		            System.out.print("Invalid input. Please enter a valid integer: ");
+		            scanner.next(); // Consume the invalid input
+		        }
 
+		        Long number = scanner.nextLong();
+
+		        // Handle negative number by converting to positive
+		        if (number < 0) {
+		            number = -number;
+		        }
 
 		        int digitCount = 0;
 
 		        while (number != 0) {
 		            digitCount++;
-
 		            number = number / 10;
 		        }
 
@@ -31,6 +38,4 @@ public class countnumberofdigit {
 		    }
 		}
 
-//output
-//Enter an integer: 5453
-//Number of digits: 4
+
