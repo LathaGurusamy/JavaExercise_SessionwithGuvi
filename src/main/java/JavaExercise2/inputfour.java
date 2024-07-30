@@ -6,6 +6,22 @@ public class inputfour
 {
 	
 	//write a progran to print the given below pattern
+	
+	/**********
+	 Input:Enter the number of rows: 4
+	 
+	 output
+	 =======
+	1 
+	2 3 
+	4 5 6 
+	7 8 9 10 
+	 
+	 
+	 
+	 */
+
+
 
 	public static void main(String[] args)
 	{
@@ -28,18 +44,4 @@ public class inputfour
 		        }
 		    }
 		}
-
-/**********
- Input:Enter the number of rows: 4
- 
- output
- =======
-1 
-2 3 
-4 5 6 
-7 8 9 10 
- 
- 
- 
- */
 
