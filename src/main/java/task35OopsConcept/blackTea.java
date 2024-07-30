@@ -1,4 +1,4 @@
-package JavaExercise5;
+package task35OopsConcept;
 
 public class blackTea  extends Tea
 {

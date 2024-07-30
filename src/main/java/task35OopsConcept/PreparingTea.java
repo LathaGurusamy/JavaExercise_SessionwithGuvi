@@ -1,9 +1,4 @@
-package JavaExercise5;
-
-
-
-
-
+package task35OopsConcept;
 
 public class PreparingTea {
 
@@ -55,4 +50,48 @@ public class PreparingTea {
 		        
 		    }
 }
+
+/***************************************
+ * Preparing basic tea with hot water and tea leaves.
+Adding milk to the tea.
+Adding sugar to the tea.
+
+Preparing Black Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding black tea leaves and brewing for 3 minutes.
+
+Preparing Green Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding green tea leaves and brewing for 2 minutes.
+
+Preparing Herbal Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding herbal tea ingredients and brewing for 5 minutes.
+
+Preparing Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding milk to the tea.
+Adding sugar to the tea.
+
+Preparing Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding black tea leaves and brewing for 3 minutes.
+Adding milk to the tea.
+Adding sugar to the tea.
+
+Preparing Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding green tea leaves and brewing for 2 minutes.
+Adding milk to the tea.
+Adding sugar to the tea.
+
+Preparing Tea:
+Preparing basic tea with hot water and tea leaves.
+Adding herbal tea ingredients and brewing for 5 minutes.
+Adding milk to the tea.
+Adding sugar to the tea.
+
+
+ *****/
+
 
