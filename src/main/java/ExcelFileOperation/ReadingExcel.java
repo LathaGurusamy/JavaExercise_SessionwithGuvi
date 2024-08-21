@@ -13,7 +13,7 @@ public class ReadingExcel {
 	public static void main(String[] args) throws IOException 
 	{
       
-		String excelFilePath=".\\DataExcelFile\\employeedetails.xlsx";
+		String excelFilePath=".\\DataExcelFile\\Reademployeedetails.xlsx";
 		
 		FileInputStream inputstream=new FileInputStream(excelFilePath);
 		
